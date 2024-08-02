@@ -5,7 +5,7 @@
 namespace AboutMe{
 
 TimeLine::TimeLine(QWidget *parent)
-    : QWidget{parent}
+    : BaseEntity{parent}
 {}
 
 void TimeLine::paintEvent(QPaintEvent *event)

@@ -1,5 +1,6 @@
 #include "content.h"
+using namespace AboutMe;
 
 Content::Content(QWidget *parent)
-    : QWidget{parent}
+    : BaseEntity{parent}
 {}
