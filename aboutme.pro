@@ -11,17 +11,25 @@ CONFIG += c++17
 SOURCES += \
     baseentity.cpp \
     content.cpp \
+    datebar.cpp \
     main.cpp \
     aboutme.cpp \
+    mainmenu.cpp \
     memory.cpp \
-    timeline.cpp
+    timeline.cpp \
+    timelinecolon.cpp \
+    workwindow.cpp
 
 HEADERS += \
     aboutme.h \
     baseentity.h \
     content.h \
+    datebar.h \
+    mainmenu.h \
     memory.h \
-    timeline.h
+    timeline.h \
+    timelinecolon.h \
+    workwindow.h
 
 FORMS += \
     aboutme.ui
